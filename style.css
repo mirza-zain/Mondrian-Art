@@ -44,3 +44,15 @@ body{
 .black {
     background-color: #232629;
 }
+
+@media (max-width: 680px) {
+    .container{
+        display: grid;
+        grid-template-columns: 220px 98px 58px 10px;
+        grid-template-rows: 414px 190px 95px 22px;
+        width: 748px;
+        height: 748px;
+        gap: 9px;
+        background-color: #232629;
+    }
+}
